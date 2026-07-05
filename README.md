@@ -6,7 +6,7 @@ We conduct controlled experiments using Gemini-1.5-Flash and analyze model behav
 
 ---
 
-# 🧠 Project Motivation
+# Project Motivation
 
 Large language models are highly sensitive to how instructions are written.
 
