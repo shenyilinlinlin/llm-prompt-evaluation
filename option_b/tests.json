@@ -1,0 +1,12 @@
+{
+  "test_case": [
+    {"input": [2, 1, 1], "expected": 18},
+    {"input": [2, 0, 0], "expected": 9},
+    {"input": [1, 0, 1], "expected": 2},
+    {"input": [1, 5, 5], "expected": 1},
+    {"input": [3, 1, 5], "expected": 180},
+    {"input": [3, 0, 5], "expected": 90},
+    {"input": [5, 9, 0], "expected": 18000},
+    {"input": [5, 0, 0], "expected": 9000}
+  ]
+}
