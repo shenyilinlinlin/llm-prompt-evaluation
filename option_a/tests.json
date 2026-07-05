@@ -1,0 +1,16 @@
+{
+  "test_case": [
+    {"input": ["()", true], "expected": [["()"], 0]},
+    {"input": ["(())", true], "expected": [["(())"], 0]},
+    {"input": ["(()())", true], "expected": [["(()())"], 0]},
+    {"input": ["()()()", true], "expected": [["()", "()", "()"], 0]},
+    {"input": ["()(())(()())", true], "expected": [["()", "(())", "(()())"], 0]},
+    {"input": ["abc", true], "expected": [[], 0]},
+    {"input": ["abc()def", true], "expected": [["()"], 0]},
+    {"input": ["abc(())def", true], "expected": [["(())"], 0]},
+    {"input": ["))))", true], "expected": [[], 4]},
+    {"input": ["((((", true], "expected": [[], 4]},
+    {"input": ["())", true], "expected": [["()"], 1]},
+    {"input": ["(()", true], "expected": [[], 1]}
+  ]
+}
